@@ -2,6 +2,6 @@
 
 Here I am saving design pattrns examples for JS I've found in the internet
 
-Sources: 
-
-Youtube: https://www.youtube.com/c/YauhenKavalchuk
+Sources:
+https://www.youtube.com/c/YauhenKavalchuk
+https://www.youtube.com/c/GamedevelopingRu1
