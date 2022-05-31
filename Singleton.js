@@ -46,4 +46,25 @@ myCount2.increaseCount();
 console.log(myCount2.getCount()); //4
 console.log(myCount1.getCount()) //4
 
+//good example
+
+class Counter{
+    constructor(){
+        if (typeof Counter.instance === 'object'){
+            return Counter.instance;
+        }
+        this.count = 0;
+        Counter.instance = this;
+        return this;
+    }
+
+    getCounter() {
+        return this.count;
+    }
+    increaseCount(){
+        return this.count++;
+    }
+}
+
+
 
